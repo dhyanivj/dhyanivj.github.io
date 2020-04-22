@@ -282,3 +282,30 @@ a.logo {
     background-color: rgb(192, 192, 192);
     /* transform: rotate(90deg); */
 }
+
+ /*for small screen */
+ @media (max-width: 600px) {
+.vjd{
+font-size: 37px;
+line-height: 54px;
+}
+
+.myname{
+font-size: 13px;
+}
+
+.web{    font-size: 39px;
+    line-height: 42px;
+padding-top: 16px;
+}
+
+.bio{
+font-size: 16px;
+    line-height: 27px;
+padding-top: 21px;
+}
+
+.div2{
+display:none;
+}
+}
